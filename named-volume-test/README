@@ -1,0 +1,6 @@
+Volumes are bit confusing. In this example I just wanted to give
+a volume with a specific name corresponding to the container using
+the volume. docker-compose adds the name of project directory to volume
+
+docker volume ls
+namedvolumetest_dir_on_host

@@ -1,0 +1,10 @@
+version: "2"
+services:
+    hello_app:
+        image: named_volume_test_image:latest
+        container_name: named_volume_container
+        volumes:
+            - dir_on_host:/dir_in_container
+volumes:
+    dir_on_host: {} 
+

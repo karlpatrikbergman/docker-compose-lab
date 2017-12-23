@@ -1,0 +1,8 @@
+version: "2"
+services:
+  web:
+    env_file: ./web-variables.env
+    image: "se.patrikbergman.java.springboot.docker/springboot-docker:${TAG}"
+    ports:
+      - 8080:"${PORT}"
+

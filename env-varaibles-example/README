@@ -1,0 +1,12 @@
+Test docker-compose environment variables
+
+1. Added .env file with default values, and a placeholder for variable
+   substitution in docker-compose.yml
+
+2. Verify default values by running
+      docker-compose config
+
+3. The env_file feature does not seem to work the way I expected.
+   Values specified in web-variables.env is not used for variable substitution.
+   They are added to the environment though, as seen when running
+      docker-compose config
